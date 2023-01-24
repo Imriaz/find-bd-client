@@ -8,6 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>New change</p>
+        <p>New task</p>
+        <p>New task resolved</p>
+        <p>New task complete</p>
         <p>hello</p>
         <p>hello</p>
         <p>hello</p>
