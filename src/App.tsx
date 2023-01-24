@@ -24,6 +24,7 @@ function App() {
         </p>
         <h2>Task 3 Start</h2>
         <h2>Task 3 in progress</h2>
+        <h2>Task 3 in Done</h2>
         <a
           className="App-link"
           href="https://reactjs.org"
