@@ -6,6 +6,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h3>Header start</h3>
+        <h3>Header menu start</h3>
+        <h3>Header menu complete</h3>
+        <h3>Header complete</h3>
+        <h3>Header done</h3>
         <img src={logo} className="App-logo" alt="logo" />
         <p>New change</p>
         <p>New task</p>
