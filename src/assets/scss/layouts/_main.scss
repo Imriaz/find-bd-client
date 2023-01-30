@@ -41,30 +41,6 @@
     text-align: right;
 }
 
-.buy-rent{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: 1px solid rgb(141, 141, 141);
-    border-radius: 5px;
-    text-align: center;
-    padding: 5px 0;
-    margin: 15px 0;
-    
-    & > span {
-        border-radius: 5px;
-        margin-inline: 5px;
-        padding: 5px 30px;
-    }
-}
-
-.buy-rent-button {
-    border: none;
-    background-color: transparent;
-    border: 1px solid darkcyan;
-    border-radius: 10px;
-    padding: 10px;
-}
-
 .search-tool-dropdown{
     display: flex;
     justify-content: space-between;
@@ -73,12 +49,58 @@
     position: relative;
 }
 
+
+
 .rent-dropdown{
-    background-color: white;
-    position: absolute;
-    left: 0;
-    top: 63px;
-    border-radius: 8px;
-    box-shadow: 21px -20px 5px -19px #5f5f5f8c;
-    padding: 15px;
+    &__header{
+        position: absolute;
+        right: 12px;
+        top: 48px;
+        transform: scaleY(-1);
+        z-index: 1;
+    }
+    &__body{
+        background-color: white;
+        position: absolute;
+        left: 0;
+        top: 63px;
+        border-radius: 8px;
+        box-shadow: 21px -20px 5px -19px #5f5f5f8c;
+        padding: 15px;
+
+        &__main{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border: 1px solid rgb(141, 141, 141);
+            border-radius: 5px;
+            text-align: center;
+            padding: 5px 0;
+            margin: 15px 0;
+        
+        & > span {
+            border-radius: 5px;
+            margin-inline: 5px;
+            padding: 5px 30px;
+           }
+
+           &__selected{
+            background-color: rgba(95, 158, 160, 0.253);
+              color: darkcyan;
+           }
+        }
+
+        &__action{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+
+            &__button{
+                border: none;
+                background-color: transparent;
+                border: 1px solid darkcyan;
+                border-radius: 10px;
+                padding: 10px;
+            }
+        }
+    }
 }
