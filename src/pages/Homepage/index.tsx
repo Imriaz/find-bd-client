@@ -1,10 +1,12 @@
 import React from "react";
 import heroBanner from "../../assets/images/banners/hero_banner.png";
 import SearchTool from "../../components/SearchTool";
+import Timezone from "../../components/Timezone";
 
 const Homepage = () => {
   return (
     <div style={{ padding: "24px" }}>
+      <Timezone />
       <div
         style={{
           display: "flex",
@@ -19,6 +21,7 @@ const Homepage = () => {
             borderRadius: "8px",
           }}
           src={heroBanner}
+          alt="Homepage Banner"
         />
         <div
           style={{
