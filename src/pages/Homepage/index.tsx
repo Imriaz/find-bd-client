@@ -1,10 +1,12 @@
 import React from "react";
 import heroBanner from "../../assets/images/banners/hero_banner.png";
 import SearchTool from "../../components/SearchTool";
+import Timezone from "../../components/Timezone";
 
 const Homepage = () => {
   return (
     <div className="homepage">
+        <Timezone/>
       <div className="homepage__main">
         <img className="homepage__main__banner" src={heroBanner} />
         <div className="homepage__main__slogan">
