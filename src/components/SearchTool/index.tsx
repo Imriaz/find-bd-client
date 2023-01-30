@@ -33,11 +33,11 @@ const SearchTool = () => {
             <div
               key={index}
               className={
-                index == searchField.length - 1
+                index === searchField.length - 1
                   ? "search-field find"
                   : "search-field"
               }
-              style={{ gridColumn: index == 0 ? "2/4" : "" }}
+              style={{ gridColumn: index === 0 ? "2/4" : "" }}
             >
               {field}
             </div>

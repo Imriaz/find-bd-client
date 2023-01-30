@@ -8,7 +8,7 @@ const Homepage = () => {
     <div className="homepage">
         <Timezone/>
       <div className="homepage__main">
-        <img className="homepage__main__banner" src={heroBanner} />
+        <img className="homepage__main__banner" src={heroBanner} alt="Homepage Banner"/>
         <div className="homepage__main__slogan">
           <h1>Search properties for sell and for rent in Bangladesh</h1>
         </div>

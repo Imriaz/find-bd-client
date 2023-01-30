@@ -15,7 +15,7 @@ const Timezone = () => {
   };
 
   React.useEffect(() => {
-    setInterval(() => timeZone(), 60000);
+    setInterval(() => timeZone(), 1000);
   }, []);
 
   return (
