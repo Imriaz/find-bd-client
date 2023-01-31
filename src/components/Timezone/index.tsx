@@ -15,18 +15,11 @@ const Timezone = () => {
   };
 
   React.useEffect(() => {
-    setInterval(() => timeZone(), 60000);
+    setInterval(() => timeZone(), 1000);
   }, []);
 
   return (
-    <div
-      style={{
-        display: "flex",
-        gap: "30px",
-        justifyContent: "center",
-        padding: "10px 0px",
-      }}
-    >
+    <div className="timezone">
       <p>Japan - {JPTime.format("h:mm a")}</p>
       <p>USA - {USATime.format("h:mm a")}</p>
       <p>EST - {ESTTime.format("h:mm a")}</p>

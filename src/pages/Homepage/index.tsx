@@ -6,7 +6,6 @@ import Timezone from "../../components/Timezone";
 const Homepage = () => {
   return (
     <div className="homepage">
-        <Timezone/>
       <div className="homepage__main">
         <img className="homepage__main__banner" src={heroBanner} />
         <div className="homepage__main__slogan">
